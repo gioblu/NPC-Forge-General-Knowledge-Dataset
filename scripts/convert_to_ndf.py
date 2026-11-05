@@ -84,9 +84,8 @@ def process_unified_datasets():
                 # Convert to NPC-Forge standard format
                 new_entry = {
                     "input": [clean_question],
-                    "output": f"<||completion||>\n\n{answer}",
-                    "permission": "ask",
-                    "tools": [], 
+                    "output": [f"<||completion||>\n\n{answer}"],
+                    "permission": "yolo",
                     "source": ds['source'],
                     "license": ds['license']
                 }
