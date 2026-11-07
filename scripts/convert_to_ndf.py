@@ -80,22 +80,6 @@ def process_unified_datasets():
             "license": "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
             "type": "comqa",
             "input_key": None
-        },
-        {
-            "name": "Capitals Dataset",
-            "path": "../json/capitals_dataset.json",
-            "source": "NPC-Forge-General-Knowledge-Dataset",
-            "license": "AGPL-3.0 license",
-            "type": "local",
-            "input_key": None
-        },
-        {
-            "name": "200k Questions",
-            "path": "../json/200k_questions.json",
-            "source": "Jeopardy Dataset (Updated)",
-            "license": "CC0: Public Domain",
-            "type": "local",
-            "input_key": None
         }
     ]
 
