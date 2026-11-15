@@ -89,7 +89,7 @@ def process_unified_datasets():
     # Compile regex to SKIP generative/creative tasks (Strict Factual QA only)
     generative_pattern = re.compile(r'^(write|summarize|translate|generate|create|compose|draft|list \d+|give me a list|explain how to build|code a|program a)', re.IGNORECASE)
     
-    output_filename = "NPC-Forge-Strict-Factual-QA-Dataset.jsonl"
+    output_filename = "dataset_NPC-Forge-Strict-Factual-QA-Dataset.jsonl"
     
     counters = {
         'total_seen': 0,
